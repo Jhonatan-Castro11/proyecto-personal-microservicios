@@ -1,6 +1,6 @@
 # Proyecto Personal: Task Management Microservices
 
-Este es un proyecto de aprendizaje donde implemento la base de una arquitectura de microservicios utilizando comunicación sincrónica.
+Este es un proyecto donde implemento la base de una arquitectura de microservicios utilizando comunicación sincrónica.
 
 ## Arquitectura
 
@@ -18,7 +18,7 @@ El sistema se compone de tres piezas fundamentales:
    - Ver usuarios: `http://localhost:3000/users`
    - Ver tareas y datos del usuario: `http://localhost:3000/tasks/user/1`
 
-## Aprendizajes Aplicados
+# LO QUE HACE
 - Implementación de un **API Gateway** para simplificar la interfaz del cliente.
 - **Comunicación Inter-servicio**: Uso de HTTP (Axios) para que un servicio consuma datos de otro.
 - **Desacoplamiento**: Cada servicio tiene su propia responsabilidad y puede escalar de forma independiente.
