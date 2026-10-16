@@ -8,8 +8,9 @@ app.use(express.json());
 
 // Datos de usuarios
 const users = [
-  { id: 1, name: 'Juan Perez', email: 'juan@example.com' },
-  { id: 2, name: 'Maria Lopez', email: 'maria@example.com' }
+  { id: 1, name: 'Carlos Ruiz', email: 'c.ruiz88@gmail.com' },
+  { id: 2, name: 'Ana Martinez', email: 'ana.mtz.dev@outlook.com' },
+  { id: 3, name: 'Luis Garcia', email: 'lgarcia_ti@yahoo.com' }
 ];
 
 // Obtener usuario por ID

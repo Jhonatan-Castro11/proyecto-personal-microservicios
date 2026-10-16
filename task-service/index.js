@@ -9,9 +9,11 @@ app.use(express.json());
 
 // Datos de tareas
 const tasks = [
-  { id: 1, userId: 1, title: 'Aprender Microservicios', status: 'pending' },
-  { id: 2, userId: 1, title: 'Configurar GitHub', status: 'completed' },
-  { id: 3, userId: 2, title: 'Revisar Código', status: 'pending' }
+  { id: 1, userId: 1, title: 'Corregir error de validación en formulario', status: 'completed' },
+  { id: 2, userId: 1, title: 'Actualizar dependencias de express', status: 'pending' },
+  { id: 3, userId: 2, title: 'Crear documentación de la API', status: 'pending' },
+  { id: 4, userId: 2, title: 'Revisar logs del servidor de staging', status: 'completed' },
+  { id: 5, userId: 3, title: 'Sincronizar base de datos local', status: 'pending' }
 ];
 
 // Obtener tareas de un usuario con datos del usuario desde el User-Service
