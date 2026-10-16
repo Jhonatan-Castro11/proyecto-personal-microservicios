@@ -4,7 +4,7 @@ Este es un proyecto donde implemento la base de una arquitectura de microservici
 
 ## Arquitectura
 
-El sistema se compone de tres piezas fundamentales:
+El sistema se compone de tres piezas:
 
 1. **API Gateway (Puerto 3000)**: Actúa como el punto de entrada único. Recibe las peticiones del cliente y las redirige al servicio correcto.
 2. **User Service (Puerto 3003)**: Gestiona la información de los usuarios.
